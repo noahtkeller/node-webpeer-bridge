@@ -1,0 +1,29 @@
+{
+  "name": "@noahtkeller/webpeer-bridge",
+  "version": "0.1.0",
+  "description": "Dynamic torrent peer that talks to my tracker to relay data from native swarm to WebRTC for vue-yify-client.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahtkeller/node-webpeer-bridge.git"
+  },
+  "author": {
+    "name": "Noah Keller",
+    "email": "noahtkeller@gmail.com",
+    "url": "https://noahtkeller.dev/"
+  },
+  "type": "module",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noahtkeller/node-webpeer-bridge/issues"
+  },
+  "homepage": "https://github.com/noahtkeller/node-webpeer-bridge#readme",
+  "dependencies": {
+    "bittorrent-tracker": "^9.18.5",
+    "freeport": "^1.0.5",
+    "webtorrent-hybrid": "^5.0.2"
+  }
+}
